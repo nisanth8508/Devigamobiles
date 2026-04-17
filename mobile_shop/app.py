@@ -112,7 +112,7 @@ def admin_required(f):
 
 # ─── AUTH ROUTES ──────────────────────────────────────────────────────────────
 
-@app.route('/')
+@app.route('/index.html')
 def home():
     return redirect(url_for('customer_home'))
 
